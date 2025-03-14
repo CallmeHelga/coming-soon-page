@@ -88,6 +88,10 @@ body {
         align-items: center;
     }
 
+    .complex li {
+        color: white;
+    }
+
     .social-media {
         order: -1;
     }
@@ -126,6 +130,7 @@ body {
     .contacts,
     .complex li {
         font-size: 20px;
+        color: white;
     }
 
     .complex {
