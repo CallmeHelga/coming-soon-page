@@ -61,19 +61,17 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.complex li {
-    color: white !important;
-}
-
-.complex li:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-    color: red;
-}
-
+.complex a,
 .social-media a {
     text-decoration: none;
     color: white;
+}
+
+.complex li:hover,
+.complex a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: red;
 }
 
 @media (max-width: 1100px) {
@@ -130,10 +128,6 @@ body {
     .contacts,
     .complex li {
         font-size: 20px;
-    }
-
-    li {
-        color: white !important;
     }
 
     .complex {
